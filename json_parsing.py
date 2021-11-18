@@ -5,7 +5,7 @@ obj = json.loads(string_as_json)
 # print(obj)
 # print(obj["answer"])
 
-key = "answer   "
+key = "answer"
 
 if key in obj:
     print(f"Ключ {key} = {obj[key]}")
