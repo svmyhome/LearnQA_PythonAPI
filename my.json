@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "method": "GET",
+      "method1": "HEAD"
+    },
+    {
+      "method": "POST",
+      "method1": "HEAD"
+    },
+    {
+      "method": "PUT",
+      "method1": "HEAD"
+    },
+    {
+      "method": "DELETE",
+      "method1": "HEAD"
+    }
+  ]
+}
