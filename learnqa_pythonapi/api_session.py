@@ -11,4 +11,4 @@ class ApiSession(Session):
     def request(self, method, path, verify=False, *args, **kwargs):
         joined_url = self.base_url + path
 
-        return super().request(method, joined_url, *args, **kwargs)
+        return super().request(method, joined_url, verify=False,  *args, **kwargs)
